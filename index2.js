@@ -3,7 +3,7 @@ const {Storage} = require('@google-cloud/storage');
 
 const storage = new Storage({
   projectId: 'aca-311',
-  keyFilename: './aca-311-d864d06c299f.json'
+  keyFilename: 'My First'
 })
 
 const bucket = storage.bucket('aca-311-files');
