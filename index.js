@@ -3,12 +3,12 @@ const fs = require("fs");
 const {Storage} = require('@google-cloud/storage');
 
 const storage = new Storage({
-  projectId: 'aca-311',
-  keyFilename: './aca-311-d864d06c299f.json'
+  projectId: 'genuine-sector-258100',
+  keyFilename: './My First Project-b7baeeb74ebb.json'
 })
 
 
-storage.bucket("aca-311-files").upload("./bruce.jpg", {
+storage.bucket("mphillips_aca_class_hd").upload("./bruce.jpg", {
     gzip: true,
     metadata: {
         cacheControl: 'public, max-age=31536000',
