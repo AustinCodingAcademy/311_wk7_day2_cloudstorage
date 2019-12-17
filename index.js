@@ -4,7 +4,7 @@ const {Storage} = require('@google-cloud/storage');
 
 const storage = new Storage({
   projectId: 'genuine-sector-258100',
-  keyFilename: './My First Project-b7baeeb74ebb.json'
+  keyFilename: './Project-b7baeeb74ebb.json'
 })
 
 
